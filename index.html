@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">    <div class="container">
+        <h1>Registration</h1>
+        <div class="frame">
+            <div class="input">
+            <input type="text" placeholder="Full name" required>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Username" required>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Email" required >
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Phone"  required>
+        </div>
+        <div class="input">
+            <input type="Password" placeholder="Password" required>
+        </div>
+        <div class="input">
+            <input type="Password" placeholder="Confirm Password" required>
+        </div>
+
+
+        <div class="checkbox">
+        <input type="checkbox"  id="terms" required>I accept the Terms and Conditions
+        </div>
+        <div class="btn">
+            <input type="button" onclick="showAlert()" value="Register" id="btn">
+        </div>
+        
+        
+        
+
+
+
+            
+        </div>
+    </div>
+</form>
+
+<script>
+
+    function showAlert(){
+        var myText="Successfully Registered"
+        alert(myText);
+    }
+
+
+
+
+</script>
+
+
+
+    
+</body>
+</html>
